@@ -1,10 +1,12 @@
+board =
 
-puts board = [" "," "," "," "," "," "," "," "," ",]
-
-def display_board 
-  puts row =  "   |   |   "
-  puts separator = "-----------"
+def display_board
+  
+  puts row = "   |   |   "
+  puts seperator = "-----------"
   puts row 
-  puts separator
+  puts seperator
   puts row 
 end 
+
+puts display_board
